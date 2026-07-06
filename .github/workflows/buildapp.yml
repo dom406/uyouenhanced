@@ -136,7 +136,6 @@ jobs:
           echo "Installing YTUHD + dav1d + libvpx"
           git clone --quiet --depth=1 https://code.videolan.org/videolan/dav1d.git $THEOS/vendor/dav1d
           git clone --quiet --depth=1 https://chromium.googlesource.com/webm/libvpx $THEOS/vendor/libvpx
-          git clone --quiet --depth=1 https://github.com/PoomSmart/YTUHD.git YTUHD
 
       - name: Hash YT ipa url
         run: |
